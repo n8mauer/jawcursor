@@ -6,11 +6,12 @@ clenches for clicks.
 
 ## Demo
 
-[![JawCursor concept animation showing webcam gaze moving a pointer and a simulated jaw clench selecting a target](docs/media/jawcursor-readme-preview.gif)](docs/media/jawcursor-trailer.mp4)
+[![Illustrated JawCursor tutorial showing hands-free slide navigation](docs/media/jawcursor-readme-preview.gif)](docs/media/jawcursor-trailer.mp4)
 
-[Full 23-second trailer (MP4)](docs/media/jawcursor-trailer.mp4)
+[Full 42-second tutorial (MP4)](docs/media/jawcursor-trailer.mp4)
 
-The trailer shows the concept and three dry-run clicks from simulated motion.
+The narrated tutorial covers potential uses, the input hardware, staged setup,
+and a verified dry run with three clicks from simulated motion.
 Real AirPods clench detection and real-person gaze accuracy still need testing.
 
 [Try the dry run without AirPods](#try-without-airpods) or [connect compatible AirPods](#connect-the-airpods) and run `jawcursor monitor` to help test.
