@@ -16,6 +16,8 @@ Real AirPods clench detection and real-person gaze accuracy still need testing.
 
 [Try the dry run without AirPods](#try-without-airpods) or [connect compatible AirPods](#connect-the-airpods) and run `jawcursor monitor` to help test.
 
+If you'd use hands-free control, **star this repository** to support the project.
+
 ```
 webcam  --> face landmarks --> gaze estimate --> smoothing --> cursor position
 AirPods --> relay app --> motion samples --> clench detector --> click
