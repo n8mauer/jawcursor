@@ -10,8 +10,9 @@ clenches for clicks.
 
 [Full 42-second tutorial (MP4)](docs/media/jawcursor-trailer.mp4)
 
-The narrated tutorial covers potential uses, the input hardware, staged setup,
-and a verified dry run with three clicks from simulated motion.
+The narrated tutorial shows a Windows PC using its webcam for gaze estimation,
+with an iPhone or Mac relaying compatible AirPods motion. It covers potential
+uses, staged setup, and a verified dry run with three clicks from simulated motion.
 Real AirPods clench detection and real-person gaze accuracy still need testing.
 
 [Try the dry run without AirPods](#try-without-airpods) or [connect compatible AirPods](#connect-the-airpods) and run `jawcursor monitor` to help test.
