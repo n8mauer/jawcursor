@@ -1,8 +1,35 @@
 # jawcursor
 
-Move the cursor by looking, click by clenching your jaw. A webcam follows your
-eyes; the motion sensors in your AirPods pick up the clench. No EEG or EMG
-hardware.
+**Look to aim. Clench to click.** JawCursor is an experimental hands-free pointer.
+The design uses a webcam to estimate gaze and AirPods motion to detect jaw
+clenches for clicks.
+
+## Demo
+
+<p align="center">
+  <a href="docs/media/jawcursor-trailer.mp4">
+    <img src="docs/media/jawcursor-readme-preview.gif" alt="Watch the 42-second JawCursor demo" width="640">
+  </a>
+  <br>
+  <a href="docs/media/jawcursor-trailer.mp4"><strong>Watch the full 42-second demo</strong></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/n8mauer/jawcursor#top">
+    <img src="docs/media/star-jawcursor.svg" alt="Star JawCursor on GitHub" width="240" height="52">
+  </a>
+  <br>
+  Help more people discover hands-free computing.
+  <br>
+  <sub>Choose <strong>Star</strong> at the top of the repository.</sub>
+</p>
+
+The narrated tutorial shows a Windows PC using its webcam for gaze estimation,
+with an iPhone or Mac relaying compatible AirPods motion. It covers potential
+uses, staged setup, and a verified dry run with three clicks from simulated motion.
+Real AirPods clench detection and real-person gaze accuracy still need testing.
+
+[Try the dry run without AirPods](#try-without-airpods) or [connect compatible AirPods](#connect-the-airpods) and run `jawcursor monitor` to help test.
 
 ```
 webcam  --> face landmarks --> gaze estimate --> smoothing --> cursor position
@@ -192,8 +219,10 @@ jawcursor record clenches.csv --seconds 30
 jawcursor replay clenches.csv
 ```
 
-To exercise everything without AirPods (made-up motion, proves the plumbing
-only):
+## Try without AirPods
+
+Run these in separate terminals to send synthetic motion and see dry-run click
+events. The dry run leaves the system cursor untouched.
 
 ```
 jawcursor run --dry-run --no-gaze --host 127.0.0.1      # terminal 1
