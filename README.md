@@ -6,9 +6,23 @@ clenches for clicks.
 
 ## Demo
 
-[![Illustrated JawCursor tutorial showing hands-free slide navigation](docs/media/jawcursor-readme-preview.gif)](docs/media/jawcursor-trailer.mp4)
+<p align="center">
+  <a href="docs/media/jawcursor-trailer.mp4">
+    <img src="docs/media/jawcursor-readme-preview.gif" alt="Watch the 42-second JawCursor demo" width="640">
+  </a>
+  <br>
+  <a href="docs/media/jawcursor-trailer.mp4"><strong>Watch the full 42-second demo</strong></a>
+</p>
 
-[Full 42-second tutorial (MP4)](docs/media/jawcursor-trailer.mp4)
+<p align="center">
+  <a href="https://github.com/n8mauer/jawcursor#top">
+    <img src="docs/media/star-jawcursor.svg" alt="Star JawCursor on GitHub" width="240" height="52">
+  </a>
+  <br>
+  Help more people discover hands-free computing.
+  <br>
+  <sub>Choose <strong>Star</strong> at the top of the repository.</sub>
+</p>
 
 The narrated tutorial shows a Windows PC using its webcam for gaze estimation,
 with an iPhone or Mac relaying compatible AirPods motion. It covers potential
@@ -16,9 +30,6 @@ uses, staged setup, and a verified dry run with three clicks from simulated moti
 Real AirPods clench detection and real-person gaze accuracy still need testing.
 
 [Try the dry run without AirPods](#try-without-airpods) or [connect compatible AirPods](#connect-the-airpods) and run `jawcursor monitor` to help test.
-
-**Give JawCursor a star on GitHub.** It takes one click to support the project
-and help more people discover hands-free computing.
 
 ```
 webcam  --> face landmarks --> gaze estimate --> smoothing --> cursor position
